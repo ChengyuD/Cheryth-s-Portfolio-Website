@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cheryth CYD</title>
+    <link rel="sytlesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+    
+    <!-- Homepage, website cover and sizes are adjustable on devices -->
+    <section class="Homepage" id="home">
+        <div class="header"></div>
+        <img src="./assets/images/Home Background.png" class="home-background" alt="Homepage"/>
+        <h1><span class="Vision">VISION</span></h1>
+        <h1><span class="myname">CherythD</span></h1>
+        <h1><span class="Tecture">TECTURE</span></h1>
+        <nav>
+            <ul>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#home">HOME</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- About section styling and should scrolled down after clicking "ABOUT" navigation link -->
+    <section class="About" id="about">
+        <h2>ABOUT</h2>
+            <img src="./assets/images/CherythD.jpg" class="me" alt="Cheryth">
+        <h3><span id="CherythD">Cheryth D is (a/an)...</span></h3>
+        
+        <div class="row">
+            <div class="box-about">
+                <img src="./assets/images/Illustrator.png" alt="Illustrator" class="imgabout">
+                <h3 class="header-about">Illustrator</h3>
+            </div>
+            <div class="box-about">
+                <img src="./assets/images/Developer.png" alt="Developer" class="imgabout">
+                <h3 class="header-about">Developer</h3>
+            </div>
+            <div class="box-about">
+                <img src="./assets/images/Tutor.png" alt="Tutor" class="imgabout">
+                <h3 class="header-about">Tutor</h3>
+            </div>
+            <div class="box-about">
+                <img src="./assets/images/Traveler.png" alt="Traveler" class="imgabout">
+                <h3 class="header-about">Traveler</h3>
+            </div>
+            <div class="box-about">
+                <img src="./assets/images/Logical.png" alt="Logical" class="imgabout">
+                <h3 class="header-about">Logical</h3>
+            </div>
+            <div class="box-about">
+                <img src="./assets/images/Critical.png" alt="Critical" class="imgabout">
+                <h3 class="header-about">Critical</h3>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Boxes should glow in portfolio section while mouse pointing on them -->        
+    <section class="Portfolio" id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <figure class="box-port">
+            <h3 class="header-port">HTML/CSS</h3>
+            <pre class="message-port"><code>Coming Soon</code></pre>
+        </figure>
+        <figure class="box-port">
+            <h3 class="header-port">JavaScript</h3>
+            <pre class="message-port"><code>Coming Soon</code></pre>
+        </figure>
+        <figure class="box-port">
+            <h3 class="header-port">API</h3>
+            <pre class="message-port"><code>Coming Soon</code></pre>
+        </figure>
+    </section>
+
+    <!-- Users should be able to see examples on the form and fill it the form -->
+    <form class="Contact" id="contact">
+        <h2>CONTACT</h2>
+        <p><span id="contactquote">Have a question? Please fill out the form below.</span></p>
+
+        <label for="username">Name:</label>
+        <input type="text" id="name" name="username" placeholder="Last, First">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Your email..">
+
+        <label for="phone">Phone #:</label>
+        <input type="text" id="phone" name="phone #" placeholder="(XXX)XXX-XXXX">
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:250px"></textarea>
+
+        <input type="submit" value="Submit" id="submit">
+    </form>
+    </div>
+</body>
+
+<footer>
+    <p><span class="myfooter">Cheryth D ©2021</span></p>
+</footer>
+ 
+</html>
